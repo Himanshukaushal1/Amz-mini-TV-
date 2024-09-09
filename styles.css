@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: #1a2224;
+    display: flex;
+    padding: 0 60px;
+    height: 72px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.nav-logo{
+    width: 157px;
+    margin-right: 44px;
+    cursor: pointer;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    width: 875px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.home{
+    color: #de146d;
+}
+
+.nav-right-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-right-menu img{
+width: 24px;
+}
+.nav-right-menu div{
+    margin-right: 36px;
+}
+section{
+    margin-top: 72px;
+    background-color: black;
+    color: white;
+}
+/* SLIDER SECTION*/
+.slider img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.list{
+    display: grid;
+ 
+    grid-template-rows: auto auto auto auto;
+    padding: 05px 60px;
+}
+.list-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px 10px;
+}
+.list-items img{
+    border-radius: 4px;
+    width: 270px;
+    transition: all .2s;
+}
+.list-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+.list-items img:hover{
+    transform: scale(1.2);
+    transition: all .15s ease;
+}
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: self-start;
+    padding: 20px 60px;
+ 
+}
+footer div{
+    margin-right: 10px;
+}
+.foot1 img{
+    width: 157px;
+    margin-top: -5px;
+}
+.slogan img{
+    width: 250px;
+}
+
+.qr img{
+   width: 100px;
+}
+.playstore{
+    width: 110px;
+}
+.applestore{
+    width: 110px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 130px;
+}
+.connect img{
+    width: 42px;
+   
+}
+
+
+
+
